@@ -22,7 +22,7 @@ module.exports = () => {
     }),
     new WebpackPwaManifest({
       name: 'JATE',
-      description: 'An effective text editor!',
+      description: 'Just Another Text Editor',
       background_color: '#ff1493',
       theme_color: '#ff1493',
       start_url: '/',
