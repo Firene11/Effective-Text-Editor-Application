@@ -18,5 +18,5 @@ butInstall.addEventListener('click', async () => {
 // Handler for the `appinstalled` event
 window.addEventListener('appinstalled', (event) => {
     textHeader.textContent = 'App sucessfully Installed!';
-    console.log('appinstalled', event);
+    console.log('awesome!', 'appinstalled', event);
 });
