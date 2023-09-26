@@ -30,7 +30,6 @@ export const putDb = async (content) => console.log('PUT to the database');
   // Get confirmation of the request.
   const result = await request;
   console.log('Data saved to the database', result);
-};
 
 
 
