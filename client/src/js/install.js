@@ -13,7 +13,10 @@ window.addEventListener('beforeinstallprompt', (event) => {
 butInstall.addEventListener('click', async () => {
     const prompt = window.deferredPrompt;
     butInstall.setAttribute('disabled', true);
-    event.prompt();
+    if (!prompt) {
+        return;
+    }
+    prompt.prompt();
     //butInstall.textContent = 'Installed!';
 });
 });
