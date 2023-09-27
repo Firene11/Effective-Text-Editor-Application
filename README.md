@@ -1,45 +1,53 @@
 # Effective Text Editor Application
 
-## User Story
-AS A developer... I WANT to create notes or code snippets with or without an internet connection
-...SO THAT I can reliably retrieve them for later use
+## Description
 
-## Acceptance Criteria
+The J.A.T.E (Just Another Text Editor) is a Progressive Web Application (PWA). It creates notes or code snippets with or without an internet connection so that you can reliably retrieve them for later use!
 
-GIVEN a text editor web application
-WHEN I open my application in my editor
+## Table of Contents
 
-THEN I should see a client server folder structure
-WHEN I run `npm run start` from the root directory
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#Screenshots)
+- [License](#license)
 
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
+## Installation
 
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
+To install and test this app visit: **link to deployed web site**
 
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
+## Usage
 
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
+clone the starter code from this repository **git clone: https://github.com/Firene11/Effective-Text-Editor-Application.git**
 
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
+When you open the application in your editor, you see a client server folder structure.
 
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
+From the command line root directory run:
 
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
+**npm run start** to start up the backend and serve the client.
 
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
+1. When you run the text editor application from the terminal, the JavaScript files have been bundled using webpack.
 
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
+2. When you run the webpack plugins, you have a generated HTML file, service worker, and a manifest file.
 
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
+3. When you use next-gen JavaScript in the application, the text editor still functions in the browser without errors.
 
-THEN I should have proper build scripts for a webpack application
+4. When you open the text editor, IndexedDB has immediately created a database storage.
+
+5. When you enter content and click off of the DOM window, the content in the text editor is saved and when you reopen it after closing it, the content has been retrieved from our IndexedDB.
+
+6. When you click on the Install button you can download the web application as an icon on your desktop.
+
+7. When you load the web application, you have a registered service worker using workbox.
+
+8. When you register a service worker, you have static assets pre cached upon loading along with subsequent pages and static assets.
+
+## Screenshots
+
+![Application](Screenshots/1.jpg)
+![Application](Screenshots/2.jpg)
+![Application](Screenshots/3.jpg)
+![Application](Screenshots/4.jpg)
+
+## License
+
+n/a
