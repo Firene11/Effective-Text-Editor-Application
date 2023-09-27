@@ -13,7 +13,7 @@ The J.A.T.E (Just Another Text Editor) is a Progressive Web Application (PWA). I
 
 ## Installation
 
-To install and test this app visit: **link to deployed web site**
+To install and test this app visit: **[link to J.A.T.E](https://warm-sea-11467-3ecf664895de.herokuapp.com/)**
 
 ## Usage
 
